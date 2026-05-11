@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dionys Luxembourg</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #1a1a1a 0%, #2b2b2b 100%);
+            color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 600px;
+            animation: fadeIn 1.5s ease-in-out;
+        }
+
+        .logo {
+            max-width: 200px;
+            margin-bottom: 30px;
+            animation: float 4s ease-in-out infinite;
+        }
+
+        h1 {
+            font-size: 2.4em;
+            margin-bottom: 10px;
+            color: #e6cfcf;
+            letter-spacing: 1px;
+        }
+
+        p {
+            font-size: 1.2em;
+            color: #bbb;
+            margin: 8px 0;
+        }
+
+        .highlight {
+            color: #2C2575;
+            font-weight: bold;
+        }
+
+        a {
+            color: #2C2575;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .links {
+            margin-top: 20px;
+            font-size: 1em;
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(15px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <img src="logo.png" alt="Dionys logo" class="logo">
+
+        <h1>Dionys Luxembourg</h1>
+
+        <p class="highlight">Our website is under construction.</p>
+        <p>Please check back soon.</p>
+
+        <p>
+            Contact us: 
+            <a href="mailto:info@dionys.lu">info@dionys.lu</a>
+        </p>
+
+        <div class="links">
+            <p>
+                Part of the group: 
+                <a href="https://cronos-groep.be/fr/" target="_blank">
+                    Cronos Group
+                </a>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
